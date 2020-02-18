@@ -1,0 +1,149 @@
+body{
+  background-color: #e4f9f5;
+  color: rgb(92, 197, 189);
+  font-size: 125%;
+}
+h1 {
+  margin-top: 0;
+  font-family: 'Tomorrow', sans-serif;
+  font-size: 250%;
+  color: rgb(92, 197, 189);
+  text-align: center;
+}
+
+h1:hover{
+  margin-top: 0;
+  color: hotpink;
+  font-family: fantasy;
+  font-size: 250%;
+  text-align: center;
+}
+h2{
+  margin-top: 0;
+  font-family: 'Numans' sans-serif;
+  font-size: 200%;
+  color: rgb(92, 197, 189);
+  text-align: center;
+}
+h2:hover{
+  margin-top: 0;
+  color: hotpink;
+  font-family: fantasy;
+  font-size: 200%;
+  text-align: center;
+}
+
+td,th{
+  width: 500px;
+  height: 50px;
+}
+td{
+  text-align: center;
+  font-family: 'Tomorrow', sans-serif;
+}
+th{
+  font-family: 'Numans', sans-serif;
+  font-size: 120%;
+}
+h2{
+  font-family: 'Tomorrow', sans-serif;
+}
+.img1,.img4{
+  position: relative;
+  right: 100px;
+}
+.img2,.img5{
+  position: relative;
+  right: 0px;
+}
+.img3,.img6{
+  position: relative;
+  left: 100px;
+}
+
+.img7{
+  position: absolute;
+  top: 150px;
+  left: 100px;
+}
+.img9{
+  position: absolute;
+  top: 190px;
+  right: 100px;
+  transform: rotate(-46deg);
+}
+.img10{
+  position: absolute;
+  top: 550px;
+  left: 50px;
+  opacity: 0.8;
+}
+.img11{
+  position: absolute;
+  top: 350px;
+  left: 50px;
+  opacity: 0.8;
+}
+.img12{
+  position: absolute;
+  top: 350px;
+  right: 70px;
+  opacity: 0.8;
+}
+.img13{
+  position: absolute;
+  top: 140px;
+  right: 70px;
+  opacity: 0.8;
+}
+.img14{
+  position: absolute;
+  opacity: 0.8;
+  top: 550px;
+  right: 70px;
+}
+.img15{
+  position: absolute;
+  top: 140px;
+  left: 50px;
+  opacity: 0.8;
+}
+.img16{
+  position: absolute;
+  top: 750px;
+  left: 50px;
+  opacity: 0.8;
+}
+.img17{
+  position: absolute;
+  top: 750px;
+  right: 70px;
+  opacity: 0.8;
+}
+.testimonial-image{
+  opacity: 60%;
+}
+.html-img1{
+    position: absolute;
+    left: 150px;
+    top: 10px;
+    opacity: 40%;
+    width: 10%;
+    z-index: -1;
+}
+.html-img2{
+    position: absolute;
+    right: 150px;
+    top: 10px;
+    opacity: 40%;
+    width: 10%;
+    z-index: -1;
+}
+.code-img{
+  position: absolute;
+  top: 200px;
+  left: 400px;
+  opacity: 10%;
+  z-index: -5;
+  width: 50%;
+}
