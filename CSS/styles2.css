@@ -141,9 +141,25 @@ h2{
 }
 .code-img{
   position: absolute;
-  top: 200px;
+  top: 440px;
   left: 400px;
   opacity: 10%;
   z-index: -5;
   width: 50%;
+}
+a:link{
+  color: rgb(92, 197, 189);
+}
+a:hover{
+  font-size: 125%;
+  text-decoration: none;
+}
+a:visited{
+  color: rgb(92, 197, 189);
+}
+.taglist{
+  margin: 50px 0 0 200px;
+}
+#testimonials{
+  height: 800px;
 }
