@@ -34,7 +34,7 @@
       display: inline-block;
     }
 
-    input[type=submit] {
+    .submitbtn{
       background-color: #ef8172;
       color: white;
       padding: 12px 20px;
@@ -44,7 +44,7 @@
       float: right;
     }
 
-    input[type=submit]:hover {
+    .submitbtn:hover {
       background-color: #ff4c68;
     }
 
@@ -154,7 +154,7 @@
 
 
   <div class="container">
-    <form action="index.html" method="get">
+    <form action="index.html" method="post">
       <div class="row">
         <div class="col-25">
           <label for="fname">First Name :</label>
@@ -200,7 +200,7 @@
       </div>
       <br>
       <div class="row">
-        <input type="submit" value="Submit">
+        <button type="button" onclick="document.location='index.html'" name="submit" class="submitbtn">Submit</button>
       </div>
     </form>
   </div>
